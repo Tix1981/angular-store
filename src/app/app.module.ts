@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { BuyersComponentComponent } from './components/buyers-component/buyers-component.component';
 import { ProductsComponentComponent } from './components/products-component/products-component.component';
 import { LayoutComponent } from './components/layout/layout.component';
+import { CheckLatestPurchasesComponent } from './components/check-latest-purchases/check-latest-purchases.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BuyersComponentComponent,
     ProductsComponentComponent,
-    LayoutComponent
+    LayoutComponent,
+    CheckLatestPurchasesComponent
   ],
   imports: [
     BrowserModule,
