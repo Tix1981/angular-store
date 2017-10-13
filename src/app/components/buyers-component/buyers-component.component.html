@@ -1,3 +1,6 @@
-<p>
-  buyers-component works!
-</p>
+<ul class="unstyled">
+  <li *ngFor="let buyer of buyers">
+    <span>{{ buyer.firstName }} {{ buyer.lastName }}</span>
+    <button class="btn btn-primary" type="button" name="button" (click)='deleteBuyer(buyer)'>Delete buyer</button>
+  </li>
+</ul>
