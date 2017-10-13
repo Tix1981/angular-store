@@ -18,6 +18,18 @@ export class BuyersComponentComponent implements OnInit {
   ngOnInit() {
   }
 
+  buyerFirstName:string;
+  buyerLastName:string;
+  buyerEmail:string;
+
+  addBuyer() {
+    let NewBuyer = new Buyer(this.buyerFirstName, this.buyerLastName, this.buyerEmail);
+    this.buyers.push(NewBuyer);
+    this.buyerFirstName = '';
+    this.buyerLastName = '';
+    this.buyerEmail = '';
+  }
+
   deleteBuyer(buyer) {
     this.buyers.splice(this.buyers.indexOf(buyer), 1);
   }

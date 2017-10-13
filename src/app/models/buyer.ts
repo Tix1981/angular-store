@@ -8,9 +8,9 @@ export class Buyer {
   email:string;
   products:Array<Product> = [];
 
-  constructor(id:number, firstName:string, lastName:string, email:string, products:Array<Product> = []) {
+  constructor(firstName:string, lastName:string, email:string, products:Array<Product> = []) {
 
-    this.id = id;
+    this.id = 0;
     this.firstName = firstName;
     this.lastName = lastName;
     this.email = email;

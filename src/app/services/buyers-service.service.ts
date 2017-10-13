@@ -9,11 +9,11 @@ export class BuyersServiceService {
 
   private buyers:Array<Buyer> = [
 
-    new Buyer(1, 'Ivan', 'Kostadinovic', 'Kostadinovic@gmail.com'),
-    new Buyer(2, 'Sima', 'Cvetuljac', 'cvetuljac@gmail.com'),
-    new Buyer(3, 'Vujadin', 'Stanic', 'stanic@gmail.com'),
-    new Buyer(4, 'Sinisa', 'Stanojlovic', 'stanojlo@gmail.com'),
-    new Buyer(5, 'Mladen', 'Ciganovic', 'ciganovic@gmail.com')
+    new Buyer('Ivan', 'Kostadinovic', 'Kostadinovic@gmail.com'),
+    new Buyer('Sima', 'Cvetuljac', 'cvetuljac@gmail.com'),
+    new Buyer('Vujadin', 'Stanic', 'stanic@gmail.com'),
+    new Buyer('Sinisa', 'Stanojlovic', 'stanojlo@gmail.com'),
+    new Buyer('Mladen', 'Ciganovic', 'ciganovic@gmail.com')
 
   ];
 

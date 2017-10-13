@@ -1,3 +1,10 @@
+<form (ngSubmit)="addBuyer()">
+  <input [(ngModel)]="buyerFirstName" type="text" name="firstName" placeholder="Enter buyers first name here"/>
+  <input [(ngModel)]="buyerLastName" type="text" name="lastName" placeholder="Enter buyers last name here"/>
+  <input [(ngModel)]="buyerEmail" type="email" name="email" placeholder="Enter buyers last name here"/>
+  <button type="submit" name="submit">Add buyer</button>
+</form>
+
 <ul class="unstyled">
   <li *ngFor="let buyer of buyers">
     <span>{{ buyer.firstName }} {{ buyer.lastName }}</span>
